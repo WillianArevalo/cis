@@ -1,0 +1,25 @@
+# Deshabilitar la visualización de directorios para carpetas que no tienen el
+# Archivo index.php
+Options -Indexes
+# php_flag output_buffering on
+# Proteger el archivo .env con las variables de entorno
+<Files .env>
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+
+# Excluir que los archivos de la carpeta assets sean procesados por el
+# Archivo index.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^assets/(.*)$ /assets/$1 [L]
+
+# Redireccionar todas las peticiones al archivo index.php
+RewriteEngine On
+RewriteBase /cis/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php/$1 [QSA,L]
+
+
+

@@ -1,0 +1,311 @@
+/* Becado vista */
+@media (max-width: 1300px) {
+  .mes,
+  .images-reportes .image {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 1160px) {
+  .inicio-body {
+    flex-direction: column;
+  }
+
+  .form-becado-2 {
+    flex-direction: column;
+  }
+
+  .form-becado-2 .form-input {
+    width: 100%;
+  }
+
+  .th-list-becados,
+  .td-list-becados {
+    display: none;
+  }
+}
+
+@media (max-width: 1250px) {
+  .asignar-listas {
+    flex-direction: column;
+  }
+
+  .reporte {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .detalles-reporte {
+    flex-direction: column;
+  }
+
+  swiper-container {
+    height: 200px;
+  }
+
+  .table table thead th {
+    font-size: 14px;
+  }
+
+  .table table tbody tr td {
+    font-size: 14px;
+  }
+}
+@media (max-width: 960px) {
+  .navbar-becado__logo p {
+    display: none;
+  }
+
+  .inicio-header__image {
+    flex: 1;
+  }
+
+  .inicio-header__body {
+    flex: 3;
+  }
+
+  .form-report-2 {
+    flex-direction: column;
+  }
+
+  .form-input.tema,
+  .form-input.participantes {
+    width: 100%;
+  }
+
+  .form-becado-1 {
+    flex-direction: column;
+  }
+
+  .form-becado-1 .form-input {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .mes,
+  .images-reportes .image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .form-report-1,
+  .form-report-2,
+  .form-report-3,
+  .form-report-4 {
+    flex-direction: column;
+  }
+
+  .main-admin,
+  .top-bar {
+    width: calc(100% - 100px);
+  }
+
+  .navbar-admin {
+    width: max-content;
+  }
+
+  .navbar-admin__logo {
+    padding-block: 20px;
+  }
+
+  .navbar-admin__logo h2 {
+    display: none;
+  }
+
+  .navbar-admin__links li a p {
+    display: none;
+  }
+
+  .main-becado .perfil,
+  .main-admin .perfil {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .navbar-becado__links,
+  .navbar-becado__user,
+  .navbar-becado__logout {
+    display: none;
+  }
+
+  .btn-hamburger-becado {
+    display: flex;
+  }
+}
+
+@media (max-width: 650px) {
+  .item {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .item-descripcion .item-body p {
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .main-becado > div,
+  .navbar-becado {
+    width: 90%;
+  }
+
+  .main-becado .perfil {
+    width: 90%;
+  }
+
+  .login {
+    border: none;
+  }
+
+  .btn-hamburger {
+    display: flex;
+  }
+
+  .navbar-admin-mobile.active {
+    width: 300px;
+  }
+
+  .navbar-admin {
+    display: none;
+  }
+
+  .main-admin,
+  .top-bar {
+    width: 100%;
+  }
+
+  .search-container {
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .becados,
+  .usuarios,
+  .proyectos,
+  .asignar,
+  .comunidades,
+  .reportes,
+  .dashboard,
+  .reportes-proyectos {
+    border: none;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .asignar-lista .card {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .asignar-lista .card .circle {
+    display: none;
+  }
+}
+
+@media (max-width: 440px) {
+  .card-body {
+    padding: 10px;
+    padding-inline: 10px;
+  }
+
+  .integrante {
+    gap: 10px;
+  }
+
+  a,
+  span {
+    font-size: 0.9rem;
+  }
+
+  small,
+  button,
+  a.btn-edit,
+  a.btn-delete,
+  a.btn-warning,
+  a.btn-info,
+  a.btn-primary,
+  a.btn-secondary {
+    font-size: 0.8rem;
+  }
+
+  .navbar-admin-mobile.active {
+    width: 100%;
+  }
+
+  .reporte {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar-becado__links {
+    gap: 10px;
+  }
+
+  .mes .mes-body {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 370px) {
+  .btn-secondary {
+    padding: 5px;
+  }
+
+  .btn-info,
+  .btn-info.disabled,
+  .card-footer a.disabled,
+  .btn-delete,
+  .btn-edit,
+  .btn-primary {
+    padding: 5px;
+  }
+}

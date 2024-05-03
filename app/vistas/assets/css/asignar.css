@@ -1,0 +1,154 @@
+.asignar {
+  background-color: transparent;
+  border: 1px solid var(--black-light);
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.asignar-title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.asignar-title h2 {
+  font-family: var(--font-primary);
+  color: var(--platinum);
+}
+
+.asignar-proyecto {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+
+.asignar-proyecto h4 {
+  font-family: var(--font-primary);
+  color: var(--blue-crayola);
+}
+
+.asignar-proyecto svg {
+  color: var(--blue-crayola);
+  width: 35px;
+  height: 35px;
+}
+
+.asignar-listas {
+  margin-top: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.columns li {
+  list-style: none;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  text-align: left;
+  border: 1px solid var(--black-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.asignar-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.asignar-lista h5 {
+  font-family: var(--font-primary);
+  color: var(--platinum);
+  font-weight: normal;
+}
+
+.asignar-lista .card {
+  background-color: var(--black-hover);
+  width: 100%;
+  display: flex;
+  padding-inline: 20px;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--platinum);
+}
+
+.asignar-lista .card img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.asignar-lista .card .circle {
+  width: 10px;
+  height: 10px;
+  background: var(--success);
+  border-radius: 50%;
+  box-shadow: 0 0 5px var(--success);
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.status.active {
+  background-color: var(--success);
+  padding: 5px 10px;
+  height: max-content;
+  width: max-content;
+  border-radius: 50px;
+  font-size: 12px;
+}
+
+.status.no-active {
+  background-color: var(--error);
+  padding: 5px 10px;
+  height: max-content;
+  width: max-content;
+  border-radius: 50px;
+  font-size: 12px;
+}
+
+.asignar-lista .card button {
+  border: none;
+  background: transparent;
+}
+
+.asignar-lista .card button:hover {
+  color: var(--platinum);
+}
+
+.asignar-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.contenedor-iconos {
+  width: 100%;
+  display: flex;
+  align-items: center; /* Centrado vertical  */
+  justify-content: center; /* Centrado horizontal */
+}

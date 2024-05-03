@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Rubik", sans-serif;
+  src: url("../fonts/Rubik.ttf") format("truetype");
+}
+
+.container-login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--black);
+  position: relative;
+}
+
+.login {
+  width: 100%;
+  max-width: 450px;
+  padding: 40px;
+  background: var(--black);
+  border: 1px solid var(--black-light);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.login__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  color: var(--platinum);
+}
+
+.login__header h2 {
+  color: var(--blue-crayola);
+  text-transform: uppercase;
+}
+
+.login__header p {
+  font-weight: bold;
+  color: var(--platinum);
+}
+
+.login__header img {
+  width: 100px;
+  height: 100px;
+}
+
+.login__form {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login__form-group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--black-light);
+  height: 45px;
+  border-radius: 5px;
+}
+
+.login__form-group > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 100%;
+  border-right: 1px solid var(--black-light);
+}
+
+.login__form-group button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 100%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border-left: 1px solid var(--black-light);
+}
+
+.login__form-group button span svg {
+  color: var(--platinum);
+}
+
+.login__form-group span svg {
+  width: 20px;
+  height: 20px;
+  color: var(--platinum);
+}
+
+.login__form-group input {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  background: transparent;
+  border: none;
+  color: var(--platinum);
+  font-family: var(--font-text);
+  border-radius: 0px 5px 5px 0px;
+}
+
+#password {
+  border-radius: 0;
+}
+
+#toggle-password.is-invalid {
+  border: 1px solid var(--poppy);
+  border-left: none;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.login__form-group input.is-invalid {
+  border: 1px solid var(--poppy);
+}
+
+.login__form-group input::placeholder {
+  color: var(--platinum-hover);
+  font-family: var(--font-primary);
+}
+
+.login__form-group input:focus {
+  outline: none;
+  border: 1px solid var(--blue-crayola);
+}
+
+.message {
+  width: 100%;
+  text-align: left;
+  color: var(--poppy);
+  font-size: 14px;
+  display: none;
+}
+
+#view {
+  display: none;
+  margin-top: 2px;
+}
+
+#hide {
+  margin-top: 2px;
+}

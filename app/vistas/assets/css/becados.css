@@ -1,0 +1,78 @@
+.becados {
+  background-color: transparent;
+  border: 1px solid var(--black-light);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.becados-title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.becados-title h1 {
+  font-family: var(--font-primary);
+  color: var(--platinum);
+}
+
+.form-input.nombre-becado {
+  width: 66.66%;
+}
+
+.form-input.usuario {
+  width: 33.33%;
+}
+
+.form-input.comunidad {
+  width: 100%;
+}
+
+.form-input.institucion {
+  width: 45%;
+}
+
+.form-input.nivel-acedemico {
+  width: 35%;
+}
+
+.form-input.nivel-estudio {
+  width: 30%;
+}
+
+.form-input.carrera {
+  width: 100%;
+}
+
+.form-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.preview-image {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid var(--black-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: dashed;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.preview-image.is-invalid {
+  border: 1px solid var(--poppy);
+  border-style: dashed;
+}
+
+.preview-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
